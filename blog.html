@@ -1,543 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>eBusiness Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: eBusiness
-  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
 </head>
-
 <body>
+      <header>
+    <!-- Intro settings -->
+    <style>
+      #intro {
+        /* Margin to fix overlapping fixed navbar */
+        margin-top: 58px;
+      }
+      @media (max-width: 991px) {
+        #intro {
+          /* Margin to fix overlapping fixed navbar */
+          margin-top: 45px;
+        }
+      }
+    </style>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex justify-content-between">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+          <img src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png" height="16" alt="" loading="lazy"
+            style="margin-top: -3px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                target="_blank">Learn Bootstrap 5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mdbootstrap.com/docs/standard/" target="_blank">Download MDB UI KIT</a>
+            </li>
+          </ul>
 
-      <div class="logo">
-        <h1><a href="index.html"><span>e</span>Business</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- Navbar -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="active" href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+    <!-- Jumbotron -->
+    <div id="intro" class="p-5 text-center bg-light">
+      <h1 class="mb-3 h2">Learn Bootstrap 5 with MDB</h1>
+      <p class="mb-3">Best & free guide of responsive web design</p>
+      <a class="btn btn-primary m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A" role="button" rel="nofollow" data-mdb-ripple-init
+        target="_blank">Start tutorial</a>
+      <a class="btn btn-primary m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank" data-mdb-ripple-init
+        role="button">Download MDB UI KIT</a>
     </div>
-  </header><!-- End Header -->
+    <!-- Jumbotron -->
+  </header>
+  <!--Main Navigation-->
 
-  <main id="main">
+  <!--Main layout-->
+  <main class="my-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="mb-5"><strong>Latest posts</strong></h4>
 
-    <!-- ======= Blog Header ======= -->
-    <div class="header-bg page-area">
-      <div class="container position-relative">
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="slider-content text-center">
-              <div class="header-bottom">
-                <div class="layer2">
-                  <h1 class="title2">My Blog</h1>
-                </div>
-                <div class="layer3">
-                  <h2 class="title3">Profesional Blog Page</h2>
-                </div>
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Blog Header -->
-
-    <!-- ======= Blog Page ======= -->
-    <div class="blog-page area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div class="page-head-blog">
-              <div class="single-blog-page">
-                <!-- search option start -->
-                <form action="#">
-                  <div class="search-option">
-                    <input type="text" placeholder="Search...">
-                    <button class="button" type="submit">
-                      <i class="bi bi-search"></i>
-                    </button>
-                  </div>
-                </form>
-                <!-- search option end -->
-              </div>
-              <div class="single-blog-page">
-                <!-- recent start -->
-                <div class="left-blog">
-                  <h4>recent post</h4>
-                  <div class="recent-post">
-                    <!-- start single post -->
-                    <div class="recent-single-post">
-                      <div class="post-img">
-                        <a href="#">
-                          <img src="assets/img/blog/1.jpg" alt="">
-                        </a>
-                      </div>
-                      <div class="pst-content">
-                        <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                      </div>
-                    </div>
-                    <!-- End single post -->
-                    <!-- start single post -->
-                    <div class="recent-single-post">
-                      <div class="post-img">
-                        <a href="#">
-                          <img src="assets/img/blog/2.jpg" alt="">
-                        </a>
-                      </div>
-                      <div class="pst-content">
-                        <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                      </div>
-                    </div>
-                    <!-- End single post -->
-                    <!-- start single post -->
-                    <div class="recent-single-post">
-                      <div class="post-img">
-                        <a href="#">
-                          <img src="assets/img/blog/3.jpg" alt="">
-                        </a>
-                      </div>
-                      <div class="pst-content">
-                        <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                      </div>
-                    </div>
-                    <!-- End single post -->
-                    <!-- start single post -->
-                    <div class="recent-single-post">
-                      <div class="post-img">
-                        <a href="#">
-                          <img src="assets/img/blog/4.jpg" alt="">
-                        </a>
-                      </div>
-                      <div class="pst-content">
-                        <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                      </div>
-                    </div>
-                    <!-- End single post -->
-                  </div>
-                </div>
-                <!-- recent end -->
-              </div>
-              <div class="single-blog-page">
-                <div class="left-blog">
-                  <h4>categories</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="#">Project</a>
-                    </li>
-                    <li>
-                      <a href="#">Design</a>
-                    </li>
-                    <li>
-                      <a href="#">wordpress</a>
-                    </li>
-                    <li>
-                      <a href="#">Joomla</a>
-                    </li>
-                    <li>
-                      <a href="#">Html</a>
-                    </li>
-                    <li>
-                      <a href="#">Website</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="single-blog-page">
-                <div class="left-blog">
-                  <h4>archive</h4>
-                  <ul>
-                    <li>
-                      <a href="#">07 July 2016</a>
-                    </li>
-                    <li>
-                      <a href="#">29 June 2016</a>
-                    </li>
-                    <li>
-                      <a href="#">13 May 2016</a>
-                    </li>
-                    <li>
-                      <a href="#">20 March 2016</a>
-                    </li>
-                    <li>
-                      <a href="#">09 Fabruary 2016</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="single-blog-page">
-                <div class="left-tags blog-tags">
-                  <div class="popular-tag left-side-tags left-blog">
-                    <h4>popular tags</h4>
-                    <ul>
-                      <li>
-                        <a href="#">Portfolio</a>
-                      </li>
-                      <li>
-                        <a href="#">Project</a>
-                      </li>
-                      <li>
-                        <a href="#">Design</a>
-                      </li>
-                      <li>
-                        <a href="#">Website</a>
-                      </li>
-                      <li>
-                        <a href="#">Joomla</a>
-                      </li>
-                      <li>
-                        <a href="#">Html</a>
-                      </li>
-                      <li>
-                        <a href="#">wordpress</a>
-                      </li>
-                      <li>
-                        <a href="#">Masonry</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End left sidebar -->
-          <!-- Start single blog -->
-          <div class="col-md-8 col-sm-8 col-xs-12">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <a href="blog-details.html">
-                      <img src="assets/img/blog/1.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">11 comments</a>
-                    </span>
-                    <span class="date-type">
-                      <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
-                    </span>
-                  </div>
-                  <div class="blog-text">
-                    <h4>
-                      <a href="#">Post my imagine Items</a>
-                    </h4>
-                    <p>
-                      Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                    </p>
-                  </div>
-                  <span>
-                    <a href="blog-details.html" class="ready-btn">Read more</a>
-                  </span>
-                </div>
-              </div>
-              <!-- End single blog -->
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <a href="blog-details.html">
-                      <img src="assets/img/blog/2.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">7 comments</a>
-                    </span>
-                    <span class="date-type">
-                      <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
-                    </span>
-                  </div>
-                  <div class="blog-text">
-                    <h4>
-                      <a href="#">Post my imagine Items</a>
-                    </h4>
-                    <p>
-                      Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                    </p>
-                  </div>
-                  <span>
-                    <a href="blog-details.html" class="ready-btn">Read more</a>
-                  </span>
-                </div>
-              </div>
-              <!-- Start single blog -->
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <a href="blog-details.html">
-                      <img src="assets/img/blog/3.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">13 comments</a>
-                    </span>
-                    <span class="date-type">
-                      <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
-                    </span>
-                  </div>
-                  <div class="blog-text">
-                    <h4>
-                      <a href="#">Post my imagine Items</a>
-                    </h4>
-                    <p>
-                      Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                    </p>
-                  </div>
-                  <span>
-                    <a href="blog-details.html" class="ready-btn">Read more</a>
-                  </span>
-                </div>
-              </div>
-              <!-- End single blog -->
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <a href="blog-details.html">
-                      <img src="assets/img/blog/4.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">1 comments</a>
-                    </span>
-                    <span class="date-type">
-                      <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
-                    </span>
-                  </div>
-                  <div class="blog-text">
-                    <h4>
-                      <a href="#">Post my imagine Items</a>
-                    </h4>
-                    <p>
-                      Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                    </p>
-                  </div>
-                  <span>
-                    <a href="blog-details.html" class="ready-btn">Read more</a>
-                  </span>
-                </div>
-              </div>
-              <!-- Start single blog -->
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="single-blog">
-                  <div class="single-blog-img">
-                    <a href="blog-details.html">
-                      <img src="assets/img/blog/5.jpg" alt="">
-                    </a>
-                  </div>
-                  <div class="blog-meta">
-                    <span class="comments-type">
-                      <i class="bi bi-chat"></i>
-                      <a href="#">10 comments</a>
-                    </span>
-                    <span class="date-type">
-                      <i class="bi bi-calendar"></i>2016-03-05 / 09:10:16
-                    </span>
-                  </div>
-                  <div class="blog-text">
-                    <h4>
-                      <a href="#">Post my imagine Items</a>
-                    </h4>
-                    <p>
-                      Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                    </p>
-                  </div>
-                  <span>
-                    <a href="blog-details.html" class="ready-btn">Read more</a>
-                  </span>
-                </div>
-              </div>
-              <!-- End single blog -->
-              <div class="blog-pagination">
-                <ul class="pagination">
-                  <li class="page-item"><a href="#" class="page-link">&lt;</a></li>
-                  <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                  <li class="page-item"><a href="#" class="page-link">2</a></li>
-                  <li class="page-item"><a href="#" class="page-link">3</a></li>
-                  <li class="page-item"><a href="#" class="page-link">&gt;</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Blog Page -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer>
-    <div class="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
-                </div>
-
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-                <div class="footer-icons">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="bi bi-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>information</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
                 </p>
-                <div class="footer-contacts">
-                  <p><span>Tel:</span> +123 456 789</p>
-                  <p><span>Email:</span> contact@example.com</p>
-                  <p><span>Working Hours:</span> 9am-5pm</p>
-                </div>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
               </div>
             </div>
           </div>
-          <!-- end single footer -->
-          <div class="col-md-4">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>Instagram</h4>
-                <div class="flicker-img">
-                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
-                </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="footer-area-bottom">
-      <div class="container">
+
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="copyright text-center">
-              <p>
-                &copy; Copyright <strong>eBusiness</strong>. All Rights Reserved
-              </p>
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/002.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
             </div>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/standard/nature/035.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Post title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Read</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!--Section: Content-->
+
+      <!-- Pagination -->
+      <nav class="my-4" aria-label="...">
+        <ul class="pagination pagination-circle justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </footer><!-- End  Footer -->
+  </main>
+  <!--Main layout-->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!--Footer-->
+  <footer class="bg-light text-lg-start">
+    <div class="py-4 text-center">
+      <a role="button" class="btn btn-primary btn-lg m-2" data-mdb-ripple-init
+        href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow" target="_blank">
+        Learn Bootstrap 5
+      </a>
+      <a role="button" class="btn btn-primary btn-lg m-2" data-mdb-ripple-init href="https://mdbootstrap.com/docs/standard/" target="_blank">
+        Download MDB UI KIT
+      </a>
+    </div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <hr class="m-0" />
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    <div class="text-center py-4 align-items-center">
+      <p>Follow MDB on social media</p>
+      <a href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" class="btn btn-primary m-1" role="button" data-mdb-ripple-init
+        rel="nofollow" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/mdbootstrap" class="btn btn-primary m-1" role="button" rel="nofollow" data-mdb-ripple-init
+        target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com/MDBootstrap" class="btn btn-primary m-1" role="button" rel="nofollow" data-mdb-ripple-init
+        target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/mdbootstrap/mdb-ui-kit" class="btn btn-primary m-1" role="button" rel="nofollow" data-mdb-ripple-init
+        target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
 
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
 </body>
-
 </html>
